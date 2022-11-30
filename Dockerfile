@@ -4,7 +4,6 @@ ENV PYTHONUNBUFFERED True
 
 ENV APP_HOME /APP
 
-WOKRDIR @APP_HOME
 COPY . ./
 
 RUN pip install Flask gunicorn
